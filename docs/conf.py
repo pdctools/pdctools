@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-# smbtools documentation build configuration file, created by
-# sphinx-quickstart on Fri Dec  9 18:49:27 2011.
+# pdctools documentation build configuration file, created by
+# sphinx-quickstart on Fri Dec  9 21:05:26 2011.
 #
 # This file is execfile()d with the current directory set to its containing dir.
 #
@@ -40,8 +40,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'smbtools'
-copyright = u'2011, smbtools devs'
+project = u'pdctools'
+copyright = u'2011, pdctools devs'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -164,7 +164,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'smbtoolsdoc'
+htmlhelp_basename = 'pdctoolsdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -178,8 +178,8 @@ htmlhelp_basename = 'smbtoolsdoc'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'smbtools.tex', u'smbtools Documentation',
-   u'smbtools devs', 'manual'),
+  ('index2', 'pdctools.tex', u'pdctools Documentation',
+   u'pdctools devs', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -211,18 +211,18 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'smbtools', u'smbtools Documentation',
-     [u'smbtools devs'], 1)
+    ('index2', 'pdctools', u'pdctools Documentation',
+     [u'pdctools devs'], 1)
 ]
 
 
 # -- Options for Epub output ---------------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'smbtools'
-epub_author = u'smbtools devs'
-epub_publisher = u'smbtools devs'
-epub_copyright = u'2011, smbtools devs'
+epub_title = u'pdctools'
+epub_author = u'pdctools devs'
+epub_publisher = u'pdctools devs'
+epub_copyright = u'2011, pdctools devs'
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.

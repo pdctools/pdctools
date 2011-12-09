@@ -1,4 +1,4 @@
-Welcome to smbtools's documentation!
+Welcome to pdctools's documentation!
 ====================================
 
 Contents:
